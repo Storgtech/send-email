@@ -9,11 +9,11 @@ function emailSend(){
 	"<br/> Email " + email;
 	Email.send({
     Host : "smtp.elasticemail.com",
-    Username : "host@gmail.com",
-    Password : "Password",
-    To : 'reviever@gmail.com',
-    From : "website@gmail.com",
-    Subject : "This is the subject",
+    Username : "storgtech.tecnology@gmail.com",
+    Password : "3602DDFFFCBB98B95476B70BA43421FE91CE",
+    To : 'calembemarcoantonio@gmail.com',
+    From : "storgtech.tecnology@gmail.com",
+    Subject : "Subscrição de e-mail",
     Body : messageBody
 }).then(
   message => {
