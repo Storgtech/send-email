@@ -11,8 +11,8 @@ function emailSend(){
     Host : "smtp.elasticemail.com",
     Username : "storgtech.tecnology@gmail.com",
     Password : "3602DDFFFCBB98B95476B70BA43421FE91CE",
-    To : 'storgtech.tecnology@gmail.com',
-    From : "calembedossantos19@gmail.com",
+    To : 'calembedossantos19@gmail.com',
+    From : "storgtech.tecnology@gmail.com",
     Subject : "Subscrição de e-mail",
     Body : messageBody
 }).then(
